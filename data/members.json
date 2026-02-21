@@ -106,6 +106,17 @@
         "linkedin": "https://www.linkedin.com/in/pradhapanr/",
         "github": ""
       }
-    }
+    },
+    {
+  "name": "Michael Czomko",
+  "year": 2027,
+  "website": "https://github.com/AlphaCloudX",
+  "links": {
+    "instagram": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/michael-czomko/",
+    "github": "https://github.com/AlphaCloudX"
+  }
+}
   ]
 }
