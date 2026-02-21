@@ -11,6 +11,39 @@
       }
     },
     {
+      "name": "Pradhapan Rajendran",
+      "year": 2024,
+      "website": "https://www.pradr.com/",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/pradhapanr/",
+        "github": ""
+      }
+    },
+    {
+      "name": "Vince Moschella",
+      "year": 2026,
+      "website": "https://www.vincemoschella.com/",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/moschellav/",
+        "github": ""
+      }
+    },
+    {
+      "name": "Basil Yusuf",
+      "year": 2024,
+      "website": "https://www.basilyusuf.com/",
+      "links": {
+        "instagram": "",
+        "twitter": "https://x.com/basilyusuf1709",
+        "linkedin": "https://www.linkedin.com/in/basilyusuf1709/",
+        "github": "https://github.com/basilysf1709"
+      }
+    },
+    {
       "name": "Boris Skurikhin",
       "year": 2022,
       "website": "https://skurikh.in",
@@ -18,16 +51,6 @@
         "instagram": "",
         "twitter": "https://x.com/boriskurikhin",
         "linkedin": "https://www.linkedin.com/in/boris-skurikhin/"
-      }
-    },
-    {
-      "name": "Yousuf Ahmed Khan",
-      "year": 2027,
-      "website": "https://www.yousufahmedkhan.com/",
-      "links": {
-        "instagram": "",
-        "twitter": "https://x.com/yousufakhan95",
-        "linkedin": "https://www.linkedin.com/in/yousuf-ahmed-khan/"
       }
     },
     {
@@ -53,39 +76,6 @@
       }
     },
     {
-      "name": "Zach Legesse",
-      "year": 2027,
-      "website": "https://zachlegesse.ca",
-      "links": {
-        "instagram": "",
-        "twitter": "",
-        "linkedin": "https://linkedin.com/in/zach-legesse",
-        "github": ""
-      }
-    },
-    {
-      "name": "Basil Yusuf",
-      "year": 2024,
-      "website": "https://www.basilyusuf.com/",
-      "links": {
-        "instagram": "",
-        "twitter": "https://x.com/basilyusuf1709",
-        "linkedin": "https://www.linkedin.com/in/basilyusuf1709/",
-        "github": "https://github.com/basilysf1709"
-      }
-    },
-    {
-      "name": "Vince Moschella",
-      "year": 2026,
-      "website": "https://www.vincemoschella.com/",
-      "links": {
-        "instagram": "",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/moschellav/",
-        "github": ""
-      }
-    },
-    {
       "name": "Sean Chow",
       "year": 2020,
       "website": "https://seanchow.com",
@@ -97,14 +87,35 @@
       }
     },
     {
-      "name": "Pradhapan Rajendran",
-      "year": 2024,
-      "website": "https://www.pradr.com/",
+      "name": "Faisal Fawad",
+      "year": 2027,
+      "website": "https://www.linkedin.com/in/faisal-fawad/",
       "links": {
         "instagram": "",
         "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/pradhapanr/",
+        "linkedin": "https://www.linkedin.com/in/faisal-fawad/",
         "github": ""
+      }
+    },
+    {
+      "name": "Zach Legesse",
+      "year": 2027,
+      "website": "https://zachlegesse.ca",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://linkedin.com/in/zach-legesse",
+        "github": ""
+      }
+    },
+    {
+      "name": "Yousuf Ahmed Khan",
+      "year": 2027,
+      "website": "https://www.yousufahmedkhan.com/",
+      "links": {
+        "instagram": "",
+        "twitter": "https://x.com/yousufakhan95",
+        "linkedin": "https://www.linkedin.com/in/yousuf-ahmed-khan/"
       }
     }
   ]
