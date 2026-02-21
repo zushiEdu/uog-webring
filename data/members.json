@@ -11,6 +11,16 @@
       }
     },
     {
+      "name": "Boris Skurikhin",
+      "year": 2022,
+      "website": "https://skurikh.in",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/boris-skurikhin/"
+      }
+    },
+    {
       "name": "Yousuf Ahmed Khan",
       "year": 2027,
       "website": "https://www.yousufahmedkhan.com/",
@@ -62,6 +72,17 @@
         "twitter": "https://x.com/basilyusuf1709",
         "linkedin": "https://www.linkedin.com/in/basilyusuf1709/",
         "github": "https://github.com/basilysf1709"
+      }
+    },
+    {
+      "name": "Vince Moschella",
+      "year": 2026,
+      "website": "https://www.vincemoschella.com/",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/moschellav/",
+        "github": ""
       }
     },
     {
