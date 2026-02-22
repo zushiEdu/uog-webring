@@ -2,7 +2,7 @@
 
 A webring for University of Guelph Computer Science students and alumni.
 
-Live site: [uguelph.network](https://uguelph.network)
+Live site: [www.uguelph.network](https://www.uguelph.network)
 
 ## Join the webring
 
@@ -31,11 +31,11 @@ Live site: [uguelph.network](https://uguelph.network)
 
 ```html
 <div style="display: flex; align-items: center; gap: 8px;">
-  <a href="https://uguelph.network/#your-site-here?nav=prev">←</a>
-  <a href="https://uguelph.network/#your-site-here" target="_blank" rel="noopener noreferrer">
-    <img src="https://uguelph.network/icon.black.svg" alt="Guelph Webring" style="width: 24px; height: auto; opacity: 0.8;" />
+  <a href="https://www.uguelph.network/#your-site-here?nav=prev">←</a>
+  <a href="https://www.uguelph.network/#your-site-here" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.uguelph.network/icon.black.svg" alt="Guelph Webring" style="width: 24px; height: auto; opacity: 0.8;" />
   </a>
-  <a href="https://uguelph.network/#your-site-here?nav=next">→</a>
+  <a href="https://www.uguelph.network/#your-site-here?nav=next">→</a>
 </div>
 ```
 
@@ -43,15 +43,15 @@ Live site: [uguelph.network](https://uguelph.network)
 
 ```jsx
 <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-  <a href="https://uguelph.network/#your-site-here?nav=prev">←</a>
-  <a href="https://uguelph.network/#your-site-here" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.uguelph.network/#your-site-here?nav=prev">←</a>
+  <a href="https://www.uguelph.network/#your-site-here" target="_blank" rel="noopener noreferrer">
     <img
-      src="https://uguelph.network/icon.black.svg"
+      src="https://www.uguelph.network/icon.black.svg"
       alt="Guelph Webring"
       style={{ width: "24px", height: "auto", opacity: 0.8 }}
     />
   </a>
-  <a href="https://uguelph.network/#your-site-here?nav=next">→</a>
+  <a href="https://www.uguelph.network/#your-site-here?nav=next">→</a>
 </div>
 ```
 
