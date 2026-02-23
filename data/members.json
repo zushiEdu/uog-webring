@@ -322,6 +322,18 @@
         "linkedin": "https://www.linkedin.com/in/ethan-huber/",
         "github": "https://github.com/zushiEdu"
       }
-    }
+    },
+    {
+        "name": "Connor Morgan",
+        "year": 2026,
+        "website": "https://connormorgan.ca",
+        "role": "SWE @ Value Connect",
+        "links": {
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "https://linkedin.com/in/connor-morgan-custom",
+          "github": "https://github.com/connor1219"
+        }
+      }
   ]
 }
