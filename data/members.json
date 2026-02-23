@@ -310,6 +310,17 @@
         "linkedin": "https://www.linkedin.com/in/pasanu",
         "github": "https://github.com/pasanishere"
       }
+    },
+    {
+      "name": "Ethan Huber",
+      "year": 2029,  
+      "website": "https://portfolio.zushiedu.com/",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/ethan-huber/",
+        "github": "https://github.com/zushiEdu"
+      }
     }
   ]
 }
