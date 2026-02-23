@@ -4,6 +4,7 @@
       "name": "Faiz Mustansar",
       "year": 2026,
       "website": "https://faizm.me",
+      "role": "SWE intern @ TD Bank",
       "links": {
         "instagram": "https://www.instagram.com/faizm.30/",
         "twitter": "https://x.com/_faizm",
@@ -14,6 +15,7 @@
       "name": "Pradhapan Rajendran",
       "year": 2024,
       "website": "https://www.pradr.com/",
+      "role": "SWE @ Meta",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -25,6 +27,7 @@
       "name": "Vince Moschella",
       "year": 2026,
       "website": "https://www.vincemoschella.com/",
+      "role": "SDE intern @ Amazon",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -36,6 +39,7 @@
       "name": "Basil Yusuf",
       "year": 2024,
       "website": "https://www.basilyusuf.com/",
+      "role": "SWE @ Google",
       "links": {
         "instagram": "",
         "twitter": "https://x.com/basilyusuf1709",
@@ -47,6 +51,7 @@
       "name": "Boris Skurikhin",
       "year": 2022,
       "website": "https://skurikh.in",
+      "role": "Founder, CTO @ Docket (YC X25)",
       "links": {
         "instagram": "",
         "twitter": "https://x.com/boriskurikhin",
@@ -57,6 +62,7 @@
       "name": "Will Pringle",
       "year": 2023,
       "website": "https://willpringle.ca/",
+      "role": "SWE @ Amazon",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -79,6 +85,7 @@
       "name": "Sean Chow",
       "year": 2020,
       "website": "https://seanchow.com",
+      "role": "Senior PM @ CoreWeave",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -87,9 +94,22 @@
       }
     },
     {
+      "name": "Vedant Vyas",
+      "year": 2027,
+      "website": "https://www.linkedin.com/in/vedant-vyas5/",
+      "role": "Co-Founder @ Opennote (YC S25)",
+      "links": {
+        "instagram": "",
+        "twitter": "https://x.com/vedantvyas",
+        "linkedin": "https://www.linkedin.com/in/vedant-vyas5/",
+        "github": ""
+      }
+    },
+    {
       "name": "Jason Nguyen",
       "year": 2022,
       "website": "https://gist.github.com/jnguyen1098?direction=desc&sort=updated",
+      "role": "SWE @ DoorDash",
       "links": {
         "instagram": "https://www.instagram.com/thejson27/",
         "twitter": "",
@@ -101,6 +121,7 @@
       "name": "Matthew Ng",
       "year": 2024,
       "website": "https://github.com/Matt-Ng",
+      "role": "SWE @ Google",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -112,6 +133,7 @@
       "name": "Shawn Kaplan",
       "year": 2021,
       "website": "https://github.com/xWink",
+      "role": "SDE II @ Amazon",
       "links": {
         "instagram": "https://www.instagram.com/shawn.kap/",
         "twitter": "",
@@ -134,6 +156,7 @@
       "name": "Michelle Berry",
       "year": 2024,
       "website": "http://www.michelleberry.ca/",
+      "role": "SWE @ Splunk",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -156,6 +179,7 @@
       "name": "Malcolm Wright",
       "year": 2024,
       "website": "http://mbw101.github.io/",
+      "role": "SWE @ Microsoft",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -178,6 +202,7 @@
       "name": "Tony Hoan Trinh",
       "year": 2023,
       "website": "https://github.com/TonyHoanTrinh",
+      "role": "SWE @ Amazon",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -200,6 +225,7 @@
       "name": "Baraa Al-Rashedi",
       "year": 2026,
       "website": "https://athenaguard.ca/",
+      "role": "Founder & CEO @ AthenaGuard",
       "links": {
         "instagram": "https://www.instagram.com/baroobi.inc/",
         "twitter": "",
@@ -211,6 +237,7 @@
       "name": "Faisal Fawad",
       "year": 2027,
       "website": "https://www.linkedin.com/in/faisal-fawad/",
+      "role": "SWE intern @ Tesla",
       "links": {
         "instagram": "",
         "twitter": "",
@@ -269,17 +296,6 @@
         "twitter": "https://x.com/PasanIsHere",
         "linkedin": "https://www.linkedin.com/in/pasanu",
         "github": "https://github.com/pasanishere"
-      }
-    },
-    {
-      "name": "Vedant Vyas",
-      "year": 2027,
-      "website": "https://www.linkedin.com/in/vedant-vyas5/",
-      "links": {
-        "instagram": "",
-        "twitter": "https://x.com/vedantvyas",
-        "linkedin": "https://www.linkedin.com/in/vedant-vyas5/",
-        "github": ""
       }
     }
   ]
