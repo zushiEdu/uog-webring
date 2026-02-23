@@ -335,5 +335,18 @@
           "github": "https://github.com/connor1219"
         }
       }
+      ,
+    {
+        "name": "Gevin Madharha",
+        "year": 2022,
+        "website": "https://gevin.ca",
+        "role": "SWE @ Warner Bros. Discovery",
+        "links": {
+          "instagram": "https://www.instagram.com/gevinthegreat",
+          "twitter": "",
+          "linkedin": "https://www.linkedin.com/in/gevinm/",
+          "github": ""
+        }
+      }
   ]
 }
