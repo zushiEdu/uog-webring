@@ -76,7 +76,7 @@
       <img src="webAssets/uog.png" class="h-12 w-auto" alt="Webring light theme logo" />
     </header>
     <div class="sm:hidden fixed top-6 left-0 w-full px-2">
-      <input type="text" id="search-mobile" placeholder="Search by name, year or url..."
+      <input type="text" id="search-mobile" placeholder="Search by name, year, what they do or url..."
         class=" w-full font-latinMonoCaps px-4 py-2 border border-lime-700 rounded-none" />
     </div>
     <div class="w-full sm:w-3/5 lg:w-2/5">
@@ -97,9 +97,10 @@
           <table class="w-full table-fixed border-separate border-spacing-y-0 text-xs sm:text-sm">
             <thead>
               <tr>
-                <th class="w-5/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">NAME</th>
-                <th class="w-2/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">YEAR</th>
-                <th class="w-3/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">URL</th>
+                <th class="w-4/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">NAME</th>
+                <th class="w-1/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">YEAR</th>
+                <th class="w-3/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">WHAT THEY DO</th>
+                <th class="w-2/12 text-left pr-1 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">URL</th>
                 <th class="w-2/12 text-left pl-2 font-latinRomanDunhillOblique text-burgundy-500 text-base sm:text-lg italic">LINKS</th>
               </tr>
             </thead>
@@ -110,7 +111,7 @@
     </div>
 
     <div class="hidden fixed bottom-0 right-0 z-10 w-full p-6 lg:w-1/2 sm:flex flex-col space-y-2">
-      <input type="text" id="search" placeholder="Search by name, year or url..."
+      <input type="text" id="search" placeholder="Search by name, year, what they do or url..."
         class="font-latinMonoCaps px-4 py-2 border border-navy-400/50" />
       <div id="webring-chart" class="border border-navy-400/50">
         <div id="chart-container" class="h-[24rem] lg:h-[32rem]"></div>
