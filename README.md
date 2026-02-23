@@ -33,7 +33,7 @@ Live site: [www.uguelph.network](https://www.uguelph.network)
 <div style="display: flex; align-items: center; gap: 8px;">
   <a href="https://www.uguelph.network/#your-site-here?nav=prev">←</a>
   <a href="https://www.uguelph.network/#your-site-here" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.uguelph.network/icon.black.svg" alt="Guelph Webring" style="width: 24px; height: auto; opacity: 0.8;" />
+    <img src="https://www.uguelph.network/webAssets/gryphon.svg" alt="Guelph Webring" style="width: 32px; height: auto; opacity: 0.9;" />
   </a>
   <a href="https://www.uguelph.network/#your-site-here?nav=next">→</a>
 </div>
@@ -46,16 +46,16 @@ Live site: [www.uguelph.network](https://www.uguelph.network)
   <a href="https://www.uguelph.network/#your-site-here?nav=prev">←</a>
   <a href="https://www.uguelph.network/#your-site-here" target="_blank" rel="noopener noreferrer">
     <img
-      src="https://www.uguelph.network/icon.black.svg"
+      src="https://www.uguelph.network/webAssets/gryphon.svg"
       alt="Guelph Webring"
-      style={{ width: "24px", height: "auto", opacity: 0.8 }}
+      style={{ width: "32px", height: "auto", opacity: 0.9 }}
     />
   </a>
   <a href="https://www.uguelph.network/#your-site-here?nav=next">→</a>
 </div>
 ```
 
-Use `icon.white.svg` for dark sites and `icon.red.svg` if preferred.
+The badge uses the gryphon SVG (`gryphon.svg`).
 
 ## Notes
 
