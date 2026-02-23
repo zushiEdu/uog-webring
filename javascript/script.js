@@ -63,28 +63,28 @@ let createWebringList = (matchedSiteIndices) => {
     }
 
     const name = document.createElement("td");
-    name.className = "pr-1 py-0 font-latinRomanCaps truncate";
+    name.className = "pr-2 py-0 font-latinRomanCaps truncate";
     name.textContent = site.name;
     if (isSearchItem) {
       name.className += " text-mustard-100";
     }
 
     const year = document.createElement("td");
-    year.className = "pr-1 py-0 text-left font-latinRoman";
+    year.className = "pr-3 py-0 text-left font-latinRoman";
     year.textContent = site.year;
     if (isSearchItem) {
       year.className += " text-mustard-100";
     }
 
     const roleCell = document.createElement("td");
-    roleCell.className = "pr-1 py-0 font-latinRoman truncate";
+    roleCell.className = "pr-2 pl-1 py-0 font-latinRoman truncate";
     roleCell.textContent = site.role?.trim() || "—";
     if (isSearchItem) {
       roleCell.className += " text-mustard-100";
     }
 
     const urlCell = document.createElement("td");
-    urlCell.className = "pr-1 py-0 truncate";
+    urlCell.className = "pr-2 py-0 truncate";
 
     const link = document.createElement("a");
     link.href = site.website;
@@ -98,10 +98,10 @@ let createWebringList = (matchedSiteIndices) => {
     urlCell.appendChild(link);
 
     const linksCell = document.createElement("td");
-    linksCell.className = "pl-2 py-0";
+    linksCell.className = "pl-3 py-0";
 
     const links = document.createElement("div");
-    links.className = "flex items-center gap-2";
+    links.className = "flex items-center gap-3";
 
     const instagramLink = createSocialLink("instagram", site?.links?.instagram, isSearchItem);
     const twitterLink = createSocialLink("twitter", site?.links?.twitter, isSearchItem);
