@@ -347,6 +347,18 @@
           "linkedin": "https://www.linkedin.com/in/gevinm/",
           "github": ""
         }
+      },
+    {
+      "name": "Justin Leski",
+      "year": 2027,
+      "website": "https://www.justinleski.com/",
+      "role": "Incoming @ RBC Amplify",
+      "links": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/justinleski/",
+        "github": "https://github.com/justinleski"
       }
+    }
   ]
 }
