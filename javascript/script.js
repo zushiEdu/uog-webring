@@ -35,7 +35,7 @@ const createSocialLink = (type, url, isSearchItem) => {
   a.rel = "noopener noreferrer";
   a.title = type === "twitter" ? "Twitter/X" : type[0].toUpperCase() + type.slice(1);
   a.className = "inline-flex items-center";
-  a.style.color = isSearchItem ? "#000000" : "#E51937";
+  a.style.color = isSearchItem ? "#1a1308" : "#ffc429";
   a.innerHTML = socialIconSvg(type);
   return a;
 };
@@ -50,12 +50,12 @@ let createWebringList = (matchedSiteIndices) => {
     const displayUrl = formatUrl(site.website);
 
     const listItem = document.createElement("tr");
-    listItem.className = "align-middle";
+    listItem.className = "align-middle table-row";
     const isSearchItem =
       matchedSiteIndices.includes(index) &&
       matchedSiteIndices.length !== getSites().length;
     if (isSearchItem) {
-      listItem.className += " bg-mustard-500";
+      listItem.className += " table-row-highlight";
     }
 
     if (firstHighlightedItem === null && isSearchItem) {
@@ -63,42 +63,40 @@ let createWebringList = (matchedSiteIndices) => {
     }
 
     const name = document.createElement("td");
-    name.className = "pr-2 py-0 font-latinRomanCaps truncate";
+    name.className = "pr-2 sm:pr-3 py-0 font-latinRomanCaps truncate row-name";
     name.textContent = site.name;
     if (isSearchItem) {
-      name.className += " text-mustard-100";
+      name.className += " row-highlight-text";
     }
 
     const year = document.createElement("td");
-    year.className = "hidden sm:table-cell pr-4 sm:pr-3 py-0 text-left font-latinRoman";
+    year.className = "hidden sm:table-cell pr-2 sm:pr-3 py-0 text-left font-latinRoman row-year";
     year.textContent = site.year;
     if (isSearchItem) {
-      year.className += " text-mustard-100";
+      year.className += " row-highlight-text";
     }
 
     const roleCell = document.createElement("td");
-    roleCell.className = "pr-2 pl-2 sm:pl-1 py-0 font-latinRoman truncate";
+    roleCell.className = "pr-2 sm:pr-3 py-0 font-latinRoman truncate row-role";
     roleCell.textContent = site.role?.trim() || "—";
     if (isSearchItem) {
-      roleCell.className += " text-mustard-100";
+      roleCell.className += " row-highlight-text";
     }
 
     const urlCell = document.createElement("td");
-    urlCell.className = "pr-2 py-0 truncate";
+    urlCell.className = "pr-2 sm:pr-3 py-0 truncate";
 
     const link = document.createElement("a");
     link.href = site.website;
-    link.className = "font-latinMonoRegular underline";
+    link.className = "font-latinMonoRegular underline row-url";
     link.textContent = displayUrl;
     if (isSearchItem) {
-      link.className += " text-mustard-100";
-    } else {
-      link.className += " text-mustard-500";
+      link.className += " row-highlight-text";
     }
     urlCell.appendChild(link);
 
     const linksCell = document.createElement("td");
-    linksCell.className = "pl-3 py-0 min-w-[3.5rem]";
+    linksCell.className = "pl-2 sm:pl-3 py-0 min-w-[3.5rem] row-links";
 
     const links = document.createElement("div");
     links.className = "flex items-center gap-3";
@@ -113,7 +111,7 @@ let createWebringList = (matchedSiteIndices) => {
       const empty = document.createElement("span");
       empty.textContent = "—";
       empty.className = "font-latinMonoRegular";
-      empty.style.color = isSearchItem ? "#000000" : "#E51937";
+      empty.style.color = isSearchItem ? "#1a1308" : "#ffc429";
       links.appendChild(empty);
     }
     linksCell.appendChild(links);
@@ -191,7 +189,7 @@ let navigateWebring = () => {
   if (!getSites()[newIndex]) return;
 
   document.body.innerHTML = `
-  <main class="p-6 min-h-[100vh] w-[100vw] text-black-900">
+  <main class="p-6 min-h-[100vh] w-[100vw] text-site-paper bg-site-ink">
     <p class="font-latinMonoCondOblique">redirecting...</p>
   </main>
   `;
@@ -206,21 +204,27 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
   const desktopInput = document.getElementById("search");
   const mobileInput = document.getElementById("search-mobile");
+  const searchMemberCount = document.getElementById("search-member-count");
 
   logConsoleMessage();
   createWebringList(getSites().map((_, index) => index));
-  handleUrlFragment(desktopInput);
-  handleUrlFragment(mobileInput);
+  if (searchMemberCount) searchMemberCount.textContent = String(getSites().length);
+  if (desktopInput) handleUrlFragment(desktopInput);
+  if (mobileInput) handleUrlFragment(mobileInput);
 
-  desktopInput.addEventListener("input", (e) => {
-    filterWebring(e.target.value);
-  });
-  mobileInput.addEventListener("input", (e) => {
-    filterWebring(e.target.value);
-  });
-  window.addEventListener("hashChange", () => {
-    handleUrlFragment(desktopInput);
-    handleUrlFragment(mobileInput);
+  if (desktopInput) {
+    desktopInput.addEventListener("input", (e) => {
+      filterWebring(e.target.value);
+    });
+  }
+  if (mobileInput) {
+    mobileInput.addEventListener("input", (e) => {
+      filterWebring(e.target.value);
+    });
+  }
+  window.addEventListener("hashchange", () => {
+    if (desktopInput) handleUrlFragment(desktopInput);
+    if (mobileInput) handleUrlFragment(mobileInput);
   });
   window.addEventListener("hashchange", navigateWebring);
 });
